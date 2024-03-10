@@ -1,0 +1,76 @@
+/* All the CSS from previous answers, including adjustments */
+body {
+    font-family: 'Open Sans', sans-serif; /* Or your preferred font */
+    background-color: #f0f2f5; 
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px; 
+    background: linear-gradient(to bottom, #fff 90%, #f7f7f7 100%);
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #333; 
+    font-size: 28px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    width: 80%;
+    margin-right: 10px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05); 
+  }
+  
+  button {
+    padding: 10px 25px;
+    background-color: #008cba; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #0071a1; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+  }
+  
+  li {
+    padding: 15px;
+    background-color: #fcfcfc; 
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .deleteTodo {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .deleteTodo:hover {
+    background-color: #d32f2f; 
+  }
+  
